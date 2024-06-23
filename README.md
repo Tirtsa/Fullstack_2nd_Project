@@ -68,6 +68,8 @@ Fullstack_2nd_Project/
 ## Gallery
 
 <p align="center">
-  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/1723b445-701a-4a93-9c34-0b8631da1049" alt="Image 1" width="45%">
-  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/f2d28ce0-e5ae-4859-a398-513c7f1dc807" alt="Image 2" width="45%">
+  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/f2d28ce0-e5ae-4859-a398-513c7f1dc807" alt="Image 1" width="45%">
+  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/1723b445-701a-4a93-9c34-0b8631da1049" alt="Image 2" width="45%">
+  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/85ab33d8-284c-42e0-a106-becd9e48edba" alt="Image 3" width="90%">
+  <img src="https://github.com/Tirtsa/Fullstack_2nd_Project/assets/37661158/1c4a1282-1b02-440b-8de3-304ffd3c1161" alt="Image 4" width="90%">
 </p>
