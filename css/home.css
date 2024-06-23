@@ -1,0 +1,92 @@
+body {
+    background-color: #f2f1dd;
+}
+
+.user-infos {
+    background-color: #f1d3a2;
+    border-radius: 10px;
+    margin: 20px 120px 50px 120px;
+    padding: 20px;
+}
+
+.infos {
+    background-color: #f2f1dd;
+    border-radius: 10px;
+    padding: 1px 20px 1px 20px;
+}
+
+.home_img {
+    float: left;
+    width: 100%;
+    height: 500px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #feae34;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #feae34;
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px 100px 100px 100px;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+
+.gallery-item {
+    margin: 10px;
+    flex-flow: row;
+    border: 0.5px solid #ccc;
+    float: right;
+    width: 400px;
+    height: auto;
+    position: relative;
+}
+
+.gallery-item:hover {
+    border: 0.5px solid #feae34;
+}
+
+.gallery-item.image-style {
+    width: 100%;
+    height: auto;
+    transform: rotateY(180deg);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    max-height: min-content;
+    cursor: pointer;
+}
+
+.gallery-item.image-style img {
+    transition: .10s ease-in-out;
+    transform: scale(1.2);
+}
+
+.desc {
+    padding: auto;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.desc h1:hover {
+    color: #fec736;
+}
+
+.back {
+    transform: rotateY(180deg);
+}

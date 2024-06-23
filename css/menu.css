@@ -1,0 +1,30 @@
+.topnav {
+    overflow: hidden;
+    border-bottom: 3px solid #feae34;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #feae34;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 16px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #feae34;
+    color: white;
+}
+
+.topnav a.active {
+    text-decoration: underline;
+  }

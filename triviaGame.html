@@ -1,0 +1,39 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/trivia.css">
+
+  <nav>
+    <div class="topnav" id="myTopnav">
+        <a href="home.html">Home</a>
+        <a href="sudoku.html">Sudoku</a>
+        <a href="triviaGame.html" class="active">Trivia</a>
+        <a href="score.html">Score</a>
+        <a href="index.html">Log In</a>
+        <img src="images/logo_2.png" alt="logo" class=logo />
+    </div>
+  </nav>
+  <script src="js/trivia.js" defer></script>
+
+</head>
+<h1 id="userh"></h1>
+
+<body id="body">
+  <h1>Trivia Game</h1>
+  <div class="quiz-container"  >
+    <div id="quiz"></div>
+  </div>
+  <button style="display:none;" id="previous">Previous Question</button>
+  <button style="display:none;" id="next">Next Question</button>
+  <button style="display:none;" id="submit">Submit Quiz</button>
+  <button id="start1" onClick="start(1)">Start Level 1</button>
+  <button id="start2" onClick="start(2)"  style="display:none">Start Level 2</button>
+  <button id="start3" onClick="start(3)" style="display:none">Start Level 3</button>
+  <button style="display:none" id="restart" onClick="reStart()">Restart Game</button>
+
+  <div id="results"></div>
+
+</body>
+
+</html>
